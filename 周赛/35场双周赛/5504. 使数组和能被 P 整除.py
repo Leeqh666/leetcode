@@ -1,4 +1,5 @@
 from typing import List
+# 思路没错，改用差分数组减少统计时的计算量
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
         if not nums or len(nums) == 0:
